@@ -1,0 +1,140 @@
+@charset "utf-8"; /* CSS Document */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    padding: 0;
+    margin: 0;
+    min-height: 670px;
+}
+/*cabeçalho*/
+header {
+    width: 100%;
+    text-align: center;
+    padding: 30px 0;
+    background-color:#BD0100;
+    background-size: cover;
+    background-position: fixed;
+}
+
+.logo {
+    max-width: 300px;
+    margin: auto;
+}
+
+.logo img {
+    width: 100%;
+}
+
+p {
+    text-align: justify;
+    font-size: 18px;
+    text-indent: 35px;
+}
+
+#title {
+    font-size: 30px;
+    text-align: center;
+}
+
+#subtitle{
+    font-size:28px;
+    text-align:center;
+    text-align:justify;
+     
+}
+
+h1,h2, h3, h4, h5, h6, p {
+    margin: 10px 0;
+}
+
+#nav {
+    width: 100%;
+    background: #525252;
+    text-align: center;
+    padding: 10px 0;
+}
+
+ul li {
+    display: inline-block;
+    padding: 0 20px;
+}
+
+@media screen and (max-width: 480px) {
+    ul li {
+        display: block;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .formulario {
+        width:100%; 
+    }
+}
+a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #ffffff;
+    text-decoration: underline;
+}
+
+a.active {
+    color:#ffffff;
+     text-decoration: underline;
+}
+
+section {
+    max-width: center;
+    margin:0 auto;
+    padding: 60px 10px;
+}
+
+.btn-enviar{background-color: #99e;color: #fff;padding: 15px 30px;font-size: 17px;border-radius: 5px;border: 2px solid #66e;}
+#footer {
+    width: 100%;
+    height: auto;
+    background: #525252;
+    color: #FFF;
+    text-align: center;
+    position: relative;
+}
+
+form{
+    text-align: center;
+    margin:30px auto;
+    background-color:#dedede; 
+    width:100%; 
+    border:2px solid #fff;
+    box-shadow: 1px 1px 8px #000;
+}
+
+
+@media screen and (min-width: 1200px) {
+    #footer {
+        position: absolute;
+
+    }
+}
+
+#footer h4 {
+    padding: 50px 0;
+}
+
+.img-max{
+    width: 100%;
+}
+
+.img-max {
+      border:2px solid black;
+    box-shadow: 1px 1px 20px #000;
+
+}
+.img-minha img{
+    width:100%; 
+}
+
